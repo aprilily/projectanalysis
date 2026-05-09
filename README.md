@@ -21,15 +21,15 @@
 
 ## ✨ 기능 소개
 
-| 기능 | 설명 |
-|------|------|
-| 루틴 추가 | 운동 이름, 분류, 세트/횟수/시간, 요일 설정 |
-| 오늘의 루틴 | 오늘 요일에 해당하는 루틴만 표시 |
-| 완료 체크 | 버튼 클릭으로 완료/취소 토글 |
-| 완료율 표시 | 오늘 완료한 운동 비율을 진행 바로 표시 |
-| 이번 주 현황 | 요일별 루틴 개수 한눈에 확인 |
-| 로컬 저장 | localStorage를 이용해 브라우저 새로고침 후에도 유지 |
-| 루틴 삭제 | 불필요한 루틴 제거 |
+| 기능         | 설명                                                |
+| ------------ | --------------------------------------------------- |
+| 루틴 추가    | 운동 이름, 분류, 세트/횟수/시간, 요일 설정          |
+| 오늘의 루틴  | 오늘 요일에 해당하는 루틴만 표시                    |
+| 완료 체크    | 버튼 클릭으로 완료/취소 토글                        |
+| 완료율 표시  | 오늘 완료한 운동 비율을 진행 바로 표시              |
+| 이번 주 현황 | 요일별 루틴 개수 한눈에 확인                        |
+| 로컬 저장    | localStorage를 이용해 브라우저 새로고침 후에도 유지 |
+| 루틴 삭제    | 불필요한 루틴 제거                                  |
 
 ---
 
@@ -96,13 +96,13 @@ S3 sync (build/ → S3 버킷)
 
 Repository → Settings → Secrets and variables → Actions → New repository secret
 
-| Secret 이름 | 설명 |
-|---|---|
-| `AWS_ACCESS_KEY_ID` | AWS Academy Access Key ID |
-| `AWS_SECRET_ACCESS_KEY` | AWS Academy Secret Access Key |
-| `AWS_SESSION_TOKEN` | AWS Academy Session Token |
-| `S3_BUCKET_NAME` | 배포할 S3 버킷 이름 |
-| `CLOUDFRONT_DISTRIBUTION_ID` | (선택) CloudFront 배포 ID |
+| Secret 이름                  | 설명                          |
+| ---------------------------- | ----------------------------- |
+| `AWS_ACCESS_KEY_ID`          | AWS Academy Access Key ID     |
+| `AWS_SECRET_ACCESS_KEY`      | AWS Academy Secret Access Key |
+| `AWS_SESSION_TOKEN`          | AWS Academy Session Token     |
+| `S3_BUCKET_NAME`             | 배포할 S3 버킷 이름           |
+| `CLOUDFRONT_DISTRIBUTION_ID` | (선택) CloudFront 배포 ID     |
 
 > ⚠️ AWS Academy 키는 세션마다 갱신되므로, 새 세션 시작 시 Secrets를 업데이트해야 합니다.
 
@@ -112,7 +112,7 @@ Repository → Settings → Secrets and variables → Actions → New repository
 
 ```bash
 # 1. 클론
-git clone https://github.com/<your-username>/workout-tracker.git
+git clone https://github.com/aprilily/projectanalysis.git
 cd workout-tracker
 
 # 2. 의존성 설치
@@ -127,10 +127,15 @@ npm start
 
 ## 🎬 CI/CD 구축 시연 영상
 
-> YouTube 링크: `https://youtu.be/<영상_링크>`
+> YouTube 링크: `https://youtu.be/EoXs326bpIQ`
 
 ---
 
 ## 📄 라이선스
 
 MIT
+
+## 과제2 AWS Amplify 호스팅
+
+- Amplify URL: https://master.d3kuua1dkdtet5.amplifyapp.com/
+- 시연 영상: https://youtu.be/EoXs326bpIQ
